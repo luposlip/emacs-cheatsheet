@@ -31,6 +31,16 @@ You can see my full Emacs `init.el` here:
 
 You're most welcome to use and adapt it for your own personal preferences, as long as you share your adaptation with the rest of us (by forking this repo).
 
+## Projectile issues
+
+If you're getting an error from Projectile containing the message `Setting Current Directory`, and the rest of the message contains a path with double slashes, you should probably change the paths in your project root `.projectile` file.
+
+One of my `.projectile` files looks like this:
+
+    +src/clj
+    +test
+
+
 ## Thanks to 
 
 @korny for inspiration from his "Korny's Emacs/clojure cheatsheet"
