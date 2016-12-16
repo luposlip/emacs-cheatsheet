@@ -37,6 +37,6 @@ You're most welcome to use and adapt it for your own personal preferences, as lo
 
 ## Licence
 
-Copyright © luposlip 2016
+Copyright Â© luposlip 2016
 
-Distributed under (Attribution-ShareAlike 4.0 International)[https://creativecommons.org/licenses/by-sa/4.0/] CC Licence
+Distributed under [Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) CC Licence
