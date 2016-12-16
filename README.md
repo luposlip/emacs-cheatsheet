@@ -25,6 +25,7 @@ This is my list of Emacs packages:
     better-defaults
     magit
     ergoemacs-mode
+    ag
 
 You can see my full Emacs `init.el` here:
 [https://gist.github.com/luposlip/b2527a99fd175b53aadfecc07a06c16e](https://gist.github.com/luposlip/b2527a99fd175b53aadfecc07a06c16e)
