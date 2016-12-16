@@ -27,7 +27,7 @@ This is my list of Emacs packages:
     ergoemacs-mode
 
 You can see my full Emacs `init.el` here:
-(https://gist.github.com/luposlip/b2527a99fd175b53aadfecc07a06c16e)[https://gist.github.com/luposlip/b2527a99fd175b53aadfecc07a06c16e]
+[https://gist.github.com/luposlip/b2527a99fd175b53aadfecc07a06c16e](https://gist.github.com/luposlip/b2527a99fd175b53aadfecc07a06c16e)
 
 You're most welcome to use and adapt it for your own personal preferences, as long as you share your adaptation with the rest of us (by forking this repo).
 
