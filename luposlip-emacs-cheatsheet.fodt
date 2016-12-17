@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:creation-date>2016-12-15T08:51:01.126370951</meta:creation-date><dc:date>2016-12-17T15:43:30.973797663</dc:date><dc:creator>Henrik Mohr</dc:creator><meta:editing-duration>PT6H10M53S</meta:editing-duration><meta:editing-cycles>46</meta:editing-cycles><meta:generator>LibreOffice/5.1.4.2$Linux_X86_64 LibreOffice_project/10m0$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="2" meta:paragraph-count="24" meta:word-count="44" meta:character-count="506" meta:non-whitespace-character-count="411"/></office:meta>
+ <office:meta><meta:creation-date>2016-12-15T08:51:01.126370951</meta:creation-date><dc:date>2016-12-17T16:48:22.968834065</dc:date><dc:creator>Henrik Mohr</dc:creator><meta:editing-duration>PT7H15M44S</meta:editing-duration><meta:editing-cycles>47</meta:editing-cycles><meta:generator>LibreOffice/5.1.4.2$Linux_X86_64 LibreOffice_project/10m0$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="2" meta:paragraph-count="24" meta:word-count="44" meta:character-count="506" meta:non-whitespace-character-count="411"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="ViewAreaTop" config:type="long">0</config:config-item>
@@ -23,7 +23,7 @@
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
      <config:config-item config:name="ZoomFactor" config:type="short">100</config:config-item>
-     <config:config-item config:name="IsSelectedFrame" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="IsSelectedFrame" config:type="boolean">true</config:config-item>
     </config:config-item-map-entry>
    </config:config-item-map-indexed>
   </config:config-item-set>
@@ -442,7 +442,7 @@
      </draw:text-box>
     </draw:frame>Assumes: <text:span text:style-name="T2">emacs24 + ergoemacs + clojure-mode + cider + paredit + projectile<text:line-break/></text:span></text:p>
    <text:p text:style-name="P1"/>
-   <text:p text:style-name="P1"><draw:frame text:anchor-type="paragraph" draw:z-index="1" draw:name="Shape1" draw:style-name="gr2" draw:text-style-name="P15" svg:width="64.46mm" svg:height="54.53mm" svg:x="147.5mm" svg:y="58.7mm">
+   <text:p text:style-name="P1"><draw:frame text:anchor-type="paragraph" draw:z-index="1" draw:name="Shape1" draw:style-name="gr2" draw:text-style-name="P15" svg:width="64.46mm" svg:height="54.53mm" svg:x="147.5mm" svg:y="68.62mm">
      <draw:text-box draw:corner-radius="1.99mm">
       <text:p text:style-name="P13"><text:span text:style-name="T3">Projectile:</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T4">C-c p</text:span></text:p>
@@ -493,7 +493,7 @@
      <draw:text-box>
       <text:p><text:span text:style-name="T2">* ag installed via ‘sudo apt install silversearcher-ag’</text:span></text:p>
      </draw:text-box>
-    </draw:frame><draw:frame text:anchor-type="paragraph" draw:z-index="3" draw:name="Shape1" draw:style-name="gr4" draw:text-style-name="P14" svg:width="66.03mm" svg:height="53.59mm" svg:x="76.54mm" svg:y="88.44mm">
+    </draw:frame><draw:frame text:anchor-type="paragraph" draw:z-index="3" draw:name="Shape1" draw:style-name="gr4" draw:text-style-name="P14" svg:width="66.03mm" svg:height="67.99mm" svg:x="76.54mm" svg:y="88.44mm">
      <draw:text-box draw:corner-radius="1.99mm">
       <text:p text:style-name="P13"><text:span text:style-name="T3">ParEdit:</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1">M-(</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">Wrap round (etc.)</text:span></text:p>
@@ -503,8 +503,11 @@
       <text:p text:style-name="P13"><text:span text:style-name="T1">C-}</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">Barf forward</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1">C-{</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">Barf backward</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1"/></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T1">CM-f</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">Paren forward</text:span></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T1">CM-b</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">Paren backward</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T1">CM</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T1">f</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">Paren forward</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T1">b</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">Paren backward</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T1">d</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">Down List (in)</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T1">u</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">Up list (out)</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1"/></text:p>
      </draw:text-box>
     </draw:frame><draw:frame text:anchor-type="paragraph" draw:z-index="9" draw:name="Shape1" draw:style-name="gr10" draw:text-style-name="P14" svg:width="66.03mm" svg:height="20.01mm" svg:x="216.91mm" svg:y="103.31mm">
