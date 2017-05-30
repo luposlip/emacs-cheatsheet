@@ -50,6 +50,6 @@ One of my `.projectile` files looks like this:
 
 ## Licence
 
-Copyright © luposlip 2016
+Copyright © luposlip 2016-2017
 
 Distributed under [Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) CC Licence
