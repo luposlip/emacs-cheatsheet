@@ -43,6 +43,9 @@ One of my `.projectile` files looks like this:
     +src/clj
     +test
 
+## nREPL issues
+
+If your nRepl won't start because of some not found wrap-refactor, it's probably because of a wrong installed version of clj-refactor. Uninstall that via `package-list-packages` (search for it via `C-f`, then mark it for deletion via a press on `d`, then execute the deletion via a press on `x`.
 
 ## Thanks to 
 
