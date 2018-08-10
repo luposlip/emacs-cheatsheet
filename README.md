@@ -6,8 +6,6 @@ So, this is it.
 
 I use Emacs 25.2.2 (for the moment).
 
-NOTE: Some of my keyboard shortcuts (such as slurp forward) doesn't work with versions of ergoemacs-mode newer than `    20161206.1258`!!
-
 This is my list of Emacs packages:
 
     clojure-mode
