@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:creation-date>2016-12-15T08:51:01.126370951</meta:creation-date><dc:date>2017-11-09T13:07:12.219178845</dc:date><dc:creator>Henrik Mohr</dc:creator><meta:editing-duration>PT9H31M32S</meta:editing-duration><meta:editing-cycles>55</meta:editing-cycles><meta:generator>LibreOffice/5.4.1.2$Linux_X86_64 LibreOffice_project/40m0$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="2" meta:paragraph-count="23" meta:word-count="45" meta:character-count="504" meta:non-whitespace-character-count="411"/></office:meta>
+ <office:meta><meta:creation-date>2016-12-15T08:51:01.126370951</meta:creation-date><dc:date>2018-08-10T15:01:19.113085990</dc:date><meta:editing-duration>PT9H40M17S</meta:editing-duration><meta:editing-cycles>59</meta:editing-cycles><meta:generator>LibreOffice/6.0.3.2$Linux_X86_64 LibreOffice_project/00m0$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="2" meta:paragraph-count="23" meta:word-count="45" meta:character-count="504" meta:non-whitespace-character-count="411"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">14393</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">7832</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
-   <config:config-item config:name="ViewAreaWidth" config:type="long">43393</config:config-item>
-   <config:config-item config:name="ViewAreaHeight" config:type="long">25137</config:config-item>
+   <config:config-item config:name="ViewAreaWidth" config:type="long">66148</config:config-item>
+   <config:config-item config:name="ViewAreaHeight" config:type="long">32519</config:config-item>
    <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">12310</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">30334</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">21816</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">2538</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">14393</config:config-item>
-     <config:config-item config:name="VisibleRight" config:type="long">43392</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">39529</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">7832</config:config-item>
+     <config:config-item config:name="VisibleRight" config:type="long">66146</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">40349</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -36,6 +36,7 @@
    <config:config-item config:name="PrintProspect" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PrintReversed" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PrintTextPlaceholder" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintTables" config:type="boolean">true</config:config-item>
    <config:config-item config:name="DoNotJustifyLinesWithManualBreak" config:type="boolean">false</config:config-item>
    <config:config-item config:name="AlignTabStopPosition" config:type="boolean">true</config:config-item>
    <config:config-item config:name="PrintLeftPages" config:type="boolean">true</config:config-item>
@@ -57,7 +58,6 @@
    <config:config-item config:name="UseFormerTextWrapping" config:type="boolean">false</config:config-item>
    <config:config-item config:name="ChartAutoUpdate" config:type="boolean">true</config:config-item>
    <config:config-item config:name="AddParaTableSpacingAtStart" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrintTables" config:type="boolean">true</config:config-item>
    <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
    <config:config-item config:name="AddParaTableSpacing" config:type="boolean">true</config:config-item>
    <config:config-item config:name="PrintDrawings" config:type="boolean">true</config:config-item>
@@ -80,7 +80,6 @@
    <config:config-item config:name="EmbeddedDatabaseName" config:type="string"/>
    <config:config-item config:name="FloattableNomargins" config:type="boolean">false</config:config-item>
    <config:config-item config:name="BackgroundParaOverDrawings" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintBlackFonts" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PrinterName" config:type="string"/>
    <config:config-item config:name="UseFormerObjectPositioning" config:type="boolean">false</config:config-item>
    <config:config-item config:name="TabOverMargin" config:type="boolean">false</config:config-item>
@@ -96,11 +95,13 @@
    <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
    <config:config-item config:name="DoNotCaptureDrawObjsOnPage" config:type="boolean">false</config:config-item>
    <config:config-item config:name="ClipAsCharacterAnchoredWriterFlyFrames" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintBlackFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="DisableOffPagePositioning" config:type="boolean">true</config:config-item>
    <config:config-item config:name="SurroundTextWrapSmall" config:type="boolean">false</config:config-item>
    <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
    <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PrintRightPages" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">4305734</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">4352959</config:config-item>
    <config:config-item config:name="MathBaselineAlignment" config:type="boolean">true</config:config-item>
    <config:config-item config:name="MsWordCompTrailingBlanks" config:type="boolean">false</config:config-item>
    <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
@@ -139,14 +140,14 @@
  </office:font-face-decls>
  <office:styles>
   <style:default-style style:family="graphic">
-   <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap" draw:shadow-offset-x="3mm" draw:shadow-offset-y="3mm" draw:start-line-spacing-horizontal="2.83mm" draw:start-line-spacing-vertical="2.83mm" draw:end-line-spacing-horizontal="2.83mm" draw:end-line-spacing-vertical="2.83mm" style:flow-with-text="false"/>
+   <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap" draw:shadow-offset-x="0.1181in" draw:shadow-offset-y="0.1181in" draw:start-line-spacing-horizontal="0.1114in" draw:start-line-spacing-vertical="0.1114in" draw:end-line-spacing-horizontal="0.1114in" draw:end-line-spacing-vertical="0.1114in" style:flow-with-text="false"/>
    <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" style:font-independent-line-spacing="false">
     <style:tab-stops/>
    </style:paragraph-properties>
    <style:text-properties style:use-window-font-color="true" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="en" fo:country="US" style:letter-kerning="true" style:font-name-asian="Noto Sans CJK SC Regular" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="FreeSans" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN"/>
   </style:default-style>
   <style:default-style style:family="paragraph">
-   <style:paragraph-properties fo:orphans="2" fo:widows="2" fo:hyphenation-ladder-count="no-limit" style:text-autospace="ideograph-alpha" style:punctuation-wrap="hanging" style:line-break="strict" style:tab-stop-distance="12.51mm" style:writing-mode="page"/>
+   <style:paragraph-properties fo:orphans="2" fo:widows="2" fo:hyphenation-ladder-count="no-limit" style:text-autospace="ideograph-alpha" style:punctuation-wrap="hanging" style:line-break="strict" style:tab-stop-distance="0.4925in" style:writing-mode="page"/>
    <style:text-properties style:use-window-font-color="true" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="en" fo:country="US" style:letter-kerning="true" style:font-name-asian="Noto Sans CJK SC Regular" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="FreeSans" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN" fo:hyphenate="false" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2"/>
   </style:default-style>
   <style:default-style style:family="table">
@@ -157,17 +158,17 @@
   </style:default-style>
   <style:style style:name="Standard" style:family="paragraph" style:class="text"/>
   <style:style style:name="Heading" style:family="paragraph" style:parent-style-name="Standard" style:next-style-name="Text_20_body" style:class="text">
-   <style:paragraph-properties fo:margin-top="4.23mm" fo:margin-bottom="2.12mm" loext:contextual-spacing="false" fo:keep-with-next="always"/>
+   <style:paragraph-properties fo:margin-top="0.1665in" fo:margin-bottom="0.0835in" loext:contextual-spacing="false" fo:keep-with-next="always"/>
    <style:text-properties style:font-name="Liberation Sans" fo:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="14pt" style:font-name-asian="Noto Sans CJK SC Regular" style:font-family-asian="&apos;Noto Sans CJK SC Regular&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="14pt" style:font-name-complex="FreeSans" style:font-family-complex="FreeSans" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="14pt"/>
   </style:style>
   <style:style style:name="Text_20_body" style:display-name="Text body" style:family="paragraph" style:parent-style-name="Standard" style:class="text">
-   <style:paragraph-properties fo:margin-top="0mm" fo:margin-bottom="2.47mm" loext:contextual-spacing="false" fo:line-height="120%"/>
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.0972in" loext:contextual-spacing="false" fo:line-height="120%"/>
   </style:style>
   <style:style style:name="List" style:family="paragraph" style:parent-style-name="Text_20_body" style:class="list">
    <style:text-properties style:font-size-asian="12pt" style:font-name-complex="FreeSans1" style:font-family-complex="FreeSans" style:font-family-generic-complex="swiss"/>
   </style:style>
   <style:style style:name="Caption" style:family="paragraph" style:parent-style-name="Standard" style:class="extra">
-   <style:paragraph-properties fo:margin-top="2.12mm" fo:margin-bottom="2.12mm" loext:contextual-spacing="false" text:number-lines="false" text:line-number="0"/>
+   <style:paragraph-properties fo:margin-top="0.0835in" fo:margin-bottom="0.0835in" loext:contextual-spacing="false" text:number-lines="false" text:line-number="0"/>
    <style:text-properties fo:font-size="12pt" fo:font-style="italic" style:font-size-asian="12pt" style:font-style-asian="italic" style:font-name-complex="FreeSans1" style:font-family-complex="FreeSans" style:font-family-generic-complex="swiss" style:font-size-complex="12pt" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="Index" style:family="paragraph" style:parent-style-name="Standard" style:class="index">
@@ -184,58 +185,58 @@
   <text:outline-style style:name="Outline">
    <text:outline-level-style text:level="1" style:num-format="">
     <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="7.62mm" fo:text-indent="-7.62mm" fo:margin-left="7.62mm"/>
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.3in" fo:text-indent="-0.3in" fo:margin-left="0.3in"/>
     </style:list-level-properties>
    </text:outline-level-style>
    <text:outline-level-style text:level="2" style:num-format="">
     <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="10.16mm" fo:text-indent="-10.16mm" fo:margin-left="10.16mm"/>
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.4in" fo:text-indent="-0.4in" fo:margin-left="0.4in"/>
     </style:list-level-properties>
    </text:outline-level-style>
    <text:outline-level-style text:level="3" style:num-format="">
     <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="12.7mm" fo:text-indent="-12.7mm" fo:margin-left="12.7mm"/>
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.5in" fo:text-indent="-0.5in" fo:margin-left="0.5in"/>
     </style:list-level-properties>
    </text:outline-level-style>
    <text:outline-level-style text:level="4" style:num-format="">
     <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="15.24mm" fo:text-indent="-15.24mm" fo:margin-left="15.24mm"/>
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.6in" fo:text-indent="-0.6in" fo:margin-left="0.6in"/>
     </style:list-level-properties>
    </text:outline-level-style>
    <text:outline-level-style text:level="5" style:num-format="">
     <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="17.78mm" fo:text-indent="-17.78mm" fo:margin-left="17.78mm"/>
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.7in" fo:text-indent="-0.7in" fo:margin-left="0.7in"/>
     </style:list-level-properties>
    </text:outline-level-style>
    <text:outline-level-style text:level="6" style:num-format="">
     <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="20.32mm" fo:text-indent="-20.32mm" fo:margin-left="20.32mm"/>
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.8in" fo:text-indent="-0.8in" fo:margin-left="0.8in"/>
     </style:list-level-properties>
    </text:outline-level-style>
    <text:outline-level-style text:level="7" style:num-format="">
     <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="22.86mm" fo:text-indent="-22.86mm" fo:margin-left="22.86mm"/>
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.9in" fo:text-indent="-0.9in" fo:margin-left="0.9in"/>
     </style:list-level-properties>
    </text:outline-level-style>
    <text:outline-level-style text:level="8" style:num-format="">
     <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="25.4mm" fo:text-indent="-25.4mm" fo:margin-left="25.4mm"/>
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1in" fo:text-indent="-1in" fo:margin-left="1in"/>
     </style:list-level-properties>
    </text:outline-level-style>
    <text:outline-level-style text:level="9" style:num-format="">
     <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="27.94mm" fo:text-indent="-27.94mm" fo:margin-left="27.94mm"/>
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.1in" fo:text-indent="-1.1in" fo:margin-left="1.1in"/>
     </style:list-level-properties>
    </text:outline-level-style>
    <text:outline-level-style text:level="10" style:num-format="">
     <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="30.48mm" fo:text-indent="-30.48mm" fo:margin-left="30.48mm"/>
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.2in" fo:text-indent="-1.2in" fo:margin-left="1.2in"/>
     </style:list-level-properties>
    </text:outline-level-style>
   </text:outline-style>
   <text:notes-configuration text:note-class="footnote" style:num-format="1" text:start-value="0" text:footnotes-position="page" text:start-numbering-at="document"/>
   <text:notes-configuration text:note-class="endnote" style:num-format="i" text:start-value="0"/>
-  <text:linenumbering-configuration text:number-lines="false" text:offset="4.99mm" style:num-format="1" text:number-position="left" text:increment="5"/>
+  <text:linenumbering-configuration text:number-lines="false" text:offset="0.1965in" style:num-format="1" text:number-position="left" text:increment="5"/>
  </office:styles>
  <office:automatic-styles>
   <style:style style:name="P1" style:family="paragraph" style:parent-style-name="Standard">
@@ -272,29 +273,29 @@
    <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
   </style:style>
   <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Standard">
-   <style:paragraph-properties fo:margin-left="1.5mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" loext:contextual-spacing="false" fo:text-indent="0mm" style:auto-text-indent="false"/>
+   <style:paragraph-properties fo:margin-left="0.0591in" fo:margin-right="0in" fo:margin-top="0in" fo:margin-bottom="0in" loext:contextual-spacing="false" fo:text-indent="0in" style:auto-text-indent="false"/>
   </style:style>
   <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Standard">
    <loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
-   <style:paragraph-properties fo:margin-left="1.5mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" loext:contextual-spacing="false" fo:text-indent="0mm" style:auto-text-indent="false" fo:background-color="transparent"/>
+   <style:paragraph-properties fo:margin-left="0.0591in" fo:margin-right="0in" fo:margin-top="0in" fo:margin-bottom="0in" loext:contextual-spacing="false" fo:text-indent="0in" style:auto-text-indent="false" fo:background-color="transparent"/>
    <style:text-properties style:font-name="Literation Mono Powerline"/>
   </style:style>
   <style:style style:name="P12" style:family="paragraph" style:parent-style-name="Standard">
    <loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
-   <style:paragraph-properties fo:margin-left="1.5mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" loext:contextual-spacing="false" fo:text-indent="0mm" style:auto-text-indent="false" fo:background-color="transparent"/>
+   <style:paragraph-properties fo:margin-left="0.0591in" fo:margin-right="0in" fo:margin-top="0in" fo:margin-bottom="0in" loext:contextual-spacing="false" fo:text-indent="0in" style:auto-text-indent="false" fo:background-color="transparent"/>
    <style:text-properties style:font-name="Literation Mono Powerline" fo:font-size="12pt"/>
   </style:style>
   <style:style style:name="P13" style:family="paragraph">
-   <style:paragraph-properties fo:margin-left="1.5mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:text-indent="0mm"/>
+   <style:paragraph-properties fo:margin-left="0.0591in" fo:margin-right="0in" fo:margin-top="0in" fo:margin-bottom="0in" fo:text-indent="0in"/>
   </style:style>
   <style:style style:name="P14" style:family="paragraph">
    <loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
-   <style:paragraph-properties fo:margin-left="1.5mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:text-indent="0mm"/>
+   <style:paragraph-properties fo:margin-left="0.0591in" fo:margin-right="0in" fo:margin-top="0in" fo:margin-bottom="0in" fo:text-indent="0in"/>
    <style:text-properties style:font-name="Literation Mono Powerline"/>
   </style:style>
   <style:style style:name="P15" style:family="paragraph">
    <loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
-   <style:paragraph-properties fo:margin-left="1.5mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:text-indent="0mm"/>
+   <style:paragraph-properties fo:margin-left="0.0591in" fo:margin-right="0in" fo:margin-top="0in" fo:margin-bottom="0in" fo:text-indent="0in"/>
    <style:text-properties style:font-name="Literation Mono Powerline" fo:font-size="12pt"/>
   </style:style>
   <style:style style:name="P16" style:family="paragraph">
@@ -316,47 +317,50 @@
    <style:text-properties style:font-name="Literation Mono Powerline" fo:font-size="8pt" style:font-size-asian="8pt" style:font-size-complex="8pt"/>
   </style:style>
   <style:style style:name="T3" style:family="text">
-   <style:text-properties style:font-name="Literation Mono Powerline" fo:font-size="14pt" fo:font-weight="bold" style:font-size-asian="12pt" style:font-weight-asian="bold" style:font-size-complex="14pt" style:font-weight-complex="bold"/>
+   <style:text-properties style:font-name="Literation Mono Powerline" fo:font-size="8pt" officeooo:rsid="00426bbf" style:font-size-asian="8pt" style:font-size-complex="8pt"/>
   </style:style>
   <style:style style:name="T4" style:family="text">
-   <style:text-properties style:font-name="Literation Mono Powerline" fo:font-size="12pt"/>
+   <style:text-properties style:font-name="Literation Mono Powerline" fo:font-size="14pt" fo:font-weight="bold" style:font-size-asian="12pt" style:font-weight-asian="bold" style:font-size-complex="14pt" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T5" style:family="text">
-   <style:text-properties style:font-name="Literation Mono Powerline" fo:font-size="12pt" fo:font-weight="normal" style:font-size-asian="10.5pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Literation Mono Powerline" fo:font-size="12pt"/>
   </style:style>
   <style:style style:name="T6" style:family="text">
-   <style:text-properties officeooo:rsid="00154c51"/>
+   <style:text-properties style:font-name="Literation Mono Powerline" fo:font-size="12pt" fo:font-weight="normal" style:font-size-asian="10.5pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T7" style:family="text">
+   <style:text-properties officeooo:rsid="00154c51"/>
+  </style:style>
+  <style:style style:name="T8" style:family="text">
    <style:text-properties officeooo:rsid="004095c3"/>
   </style:style>
   <style:style style:name="gr1" style:family="graphic">
-   <style:graphic-properties draw:stroke="solid" svg:stroke-color="#000000" draw:fill="none" draw:fill-color="#ffffff" fo:min-height="53.59mm" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:wrap-influence-on-position="once-concurrent" style:flow-with-text="false"/>
+   <style:graphic-properties draw:stroke="solid" svg:stroke-color="#000000" draw:fill="none" draw:fill-color="#ffffff" fo:min-height="2.1098in" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:wrap-influence-on-position="once-concurrent" style:flow-with-text="false"/>
   </style:style>
   <style:style style:name="gr2" style:family="graphic">
-   <style:graphic-properties draw:stroke="solid" svg:stroke-color="#000000" draw:fill="none" draw:fill-color="#ffffff" fo:min-height="49.57mm" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:wrap-influence-on-position="once-concurrent" style:flow-with-text="false"/>
+   <style:graphic-properties draw:stroke="solid" svg:stroke-color="#000000" draw:fill="none" draw:fill-color="#ffffff" fo:min-height="1.9516in" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:wrap-influence-on-position="once-concurrent" style:flow-with-text="false"/>
   </style:style>
   <style:style style:name="gr3" style:family="graphic">
-   <style:graphic-properties draw:stroke="solid" svg:stroke-color="#000000" draw:fill="none" draw:fill-color="#ffffff" fo:min-height="115.96mm" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:wrap-influence-on-position="once-concurrent" style:flow-with-text="false"/>
+   <style:graphic-properties draw:stroke="solid" svg:stroke-color="#000000" draw:fill="none" draw:fill-color="#ffffff" fo:min-height="4.5654in" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:wrap-influence-on-position="once-concurrent" style:flow-with-text="false"/>
   </style:style>
   <style:style style:name="gr4" style:family="graphic">
-   <style:graphic-properties draw:stroke="solid" svg:stroke-color="#000000" draw:fill="none" draw:fill-color="#ffffff" fo:min-height="77.58mm" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:wrap-influence-on-position="once-concurrent" style:flow-with-text="false"/>
+   <style:graphic-properties draw:stroke="solid" svg:stroke-color="#000000" draw:fill="none" draw:fill-color="#ffffff" fo:min-height="3.0543in" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:wrap-influence-on-position="once-concurrent" style:flow-with-text="false"/>
   </style:style>
   <style:style style:name="gr5" style:family="graphic">
-   <style:graphic-properties draw:stroke="solid" svg:stroke-color="#000000" draw:fill="none" draw:fill-color="#ffffff" fo:min-height="24.8mm" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:wrap-influence-on-position="once-concurrent" style:flow-with-text="false"/>
+   <style:graphic-properties draw:stroke="solid" svg:stroke-color="#000000" draw:fill="none" draw:fill-color="#ffffff" fo:min-height="0.9764in" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:wrap-influence-on-position="once-concurrent" style:flow-with-text="false"/>
   </style:style>
   <style:style style:name="gr6" style:family="graphic">
-   <style:graphic-properties draw:stroke="solid" svg:stroke-color="#000000" draw:fill="none" draw:fill-color="#ffffff" fo:min-height="63.18mm" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:wrap-influence-on-position="once-concurrent" style:flow-with-text="false"/>
+   <style:graphic-properties draw:stroke="solid" svg:stroke-color="#000000" draw:fill="none" draw:fill-color="#ffffff" fo:min-height="2.4874in" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:wrap-influence-on-position="once-concurrent" style:flow-with-text="false"/>
   </style:style>
   <style:style style:name="gr7" style:family="graphic">
-   <style:graphic-properties draw:stroke="none" svg:stroke-color="#000000" draw:fill="none" draw:fill-color="#ffffff" fo:min-height="4.96mm" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:wrap-influence-on-position="once-concurrent" style:flow-with-text="false"/>
+   <style:graphic-properties draw:stroke="none" svg:stroke-color="#000000" draw:fill="none" draw:fill-color="#ffffff" fo:min-height="0.1953in" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:wrap-influence-on-position="once-concurrent" style:flow-with-text="false"/>
   </style:style>
   <style:style style:name="gr8" style:family="graphic">
-   <style:graphic-properties draw:stroke="solid" svg:stroke-color="#000000" draw:fill="none" draw:fill-color="#ffffff" fo:min-height="20mm" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:wrap-influence-on-position="once-concurrent" style:flow-with-text="false"/>
+   <style:graphic-properties draw:stroke="solid" svg:stroke-color="#000000" draw:fill="none" draw:fill-color="#ffffff" fo:min-height="0.7874in" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:wrap-influence-on-position="once-concurrent" style:flow-with-text="false"/>
   </style:style>
   <style:page-layout style:name="pm1">
-   <style:page-layout-properties fo:page-width="296.93mm" fo:page-height="210.06mm" style:num-format="1" style:print-orientation="landscape" fo:margin-top="6.35mm" fo:margin-bottom="6.35mm" fo:margin-left="6.35mm" fo:margin-right="6.35mm" style:writing-mode="lr-tb" style:footnote-max-height="0mm">
-    <style:footnote-sep style:width="0.18mm" style:distance-before-sep="1.01mm" style:distance-after-sep="1.01mm" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
+   <style:page-layout-properties fo:page-width="11.6902in" fo:page-height="8.2701in" style:num-format="1" style:print-orientation="landscape" fo:margin-top="0.25in" fo:margin-bottom="0.25in" fo:margin-left="0.25in" fo:margin-right="0.25in" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="20" style:layout-grid-base-height="0.278in" style:layout-grid-ruby-height="0.139in" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:footnote-max-height="0in">
+    <style:footnote-sep style:width="0.0071in" style:distance-before-sep="0.0398in" style:distance-after-sep="0.0398in" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
    </style:page-layout-properties>
    <style:header-style/>
    <style:footer-style/>
@@ -373,10 +377,10 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Text"/>
     <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
    </text:sequence-decls>
-   <text:p text:style-name="P9"><text:span text:style-name="T6">l</text:span>uposlip’s Emacs/Clojure cheatsheet <text:span text:style-name="T7">- v0.5</text:span></text:p>
-   <text:p text:style-name="P1"><draw:frame text:anchor-type="paragraph" draw:z-index="0" draw:name="Shape1" draw:style-name="gr1" draw:text-style-name="P14" svg:width="66.33mm" svg:height="53.59mm" svg:x="1.89mm" svg:y="9.17mm">
-     <draw:text-box draw:corner-radius="1.99mm">
-      <text:p text:style-name="P13"><text:span text:style-name="T3">Help:</text:span></text:p>
+   <text:p text:style-name="P9"><text:span text:style-name="T7">l</text:span>uposlip’s Emacs/Clojure cheatsheet <text:span text:style-name="T8">- v0.6</text:span></text:p>
+   <text:p text:style-name="P1"><draw:frame text:anchor-type="paragraph" draw:z-index="0" draw:name="Shape1" draw:style-name="gr1" draw:text-style-name="P14" svg:width="2.6114in" svg:height="2.1717in" svg:x="0.0744in" svg:y="0.361in">
+     <draw:text-box draw:corner-radius="0.0783in">
+      <text:p text:style-name="P13"><text:span text:style-name="T4">Help:</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1">C-h</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1">m</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">mode</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1">f</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">function</text:span></text:p>
@@ -387,9 +391,9 @@
       <text:p text:style-name="P13"><text:span text:style-name="T1">Show all bindings starting with prefix</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1"/></text:p>
      </draw:text-box>
-    </draw:frame><draw:frame text:anchor-type="paragraph" draw:z-index="6" draw:name="Shape1" draw:style-name="gr3" draw:text-style-name="P14" svg:width="63.68mm" svg:height="115.97mm" svg:x="216.91mm" svg:y="8.87mm">
-     <draw:text-box draw:corner-radius="1.99mm">
-      <text:p text:style-name="P13"><text:span text:style-name="T3">Editing:</text:span></text:p>
+    </draw:frame><draw:frame text:anchor-type="paragraph" draw:z-index="6" draw:name="Shape1" draw:style-name="gr3" draw:text-style-name="P14" svg:width="2.5071in" svg:height="4.6996in" svg:x="8.5398in" svg:y="0.3492in">
+     <draw:text-box draw:corner-radius="0.0783in">
+      <text:p text:style-name="P13"><text:span text:style-name="T4">Editing:</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1">M-g</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">Cut line from point</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1">M-f</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">Delete char</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1">C-c</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">Copy</text:span></text:p>
@@ -411,17 +415,17 @@
       <text:p text:style-name="P13"><text:span text:style-name="T1">CM-Spc</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">Mark sexp</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1"/></text:p>
      </draw:text-box>
-    </draw:frame><draw:frame text:anchor-type="paragraph" draw:z-index="4" draw:name="Shape1" draw:style-name="gr5" draw:text-style-name="P14" svg:width="66.03mm" svg:height="24.81mm" svg:x="75.78mm" svg:y="8.87mm">
-     <draw:text-box draw:corner-radius="1.99mm">
-      <text:p text:style-name="P13"><text:span text:style-name="T3">Clojure:</text:span></text:p>
+    </draw:frame><draw:frame text:anchor-type="paragraph" draw:z-index="4" draw:name="Shape1" draw:style-name="gr5" draw:text-style-name="P14" svg:width="2.5996in" svg:height="1.0051in" svg:x="2.9835in" svg:y="0.3492in">
+     <draw:text-box draw:corner-radius="0.0783in">
+      <text:p text:style-name="P13"><text:span text:style-name="T4">Clojure:</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1">C-c</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1">C-h</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">Clojure Cheatsheet</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">(init.el define-key)</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1"/></text:p>
      </draw:text-box>
-    </draw:frame><draw:frame text:anchor-type="paragraph" draw:z-index="7" draw:name="Shape1" draw:style-name="gr6" draw:text-style-name="P14" svg:width="64.44mm" svg:height="63.19mm" svg:x="146.76mm" svg:y="8.87mm">
-     <draw:text-box draw:corner-radius="1.99mm">
-      <text:p text:style-name="P13"><text:span text:style-name="T3">General:</text:span></text:p>
+    </draw:frame><draw:frame text:anchor-type="paragraph" draw:z-index="7" draw:name="Shape1" draw:style-name="gr6" draw:text-style-name="P14" svg:width="2.537in" svg:height="2.5606in" svg:x="5.778in" svg:y="0.3492in">
+     <draw:text-box draw:corner-radius="0.0783in">
+      <text:p text:style-name="P13"><text:span text:style-name="T4">General:</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1">C-g</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">Cancel command</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1"/></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1">M-s</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">Next window</text:span></text:p>
@@ -435,84 +439,84 @@
       <text:p text:style-name="P13"><text:span text:style-name="T1"/></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1">Replace</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">M-%</text:span></text:p>
      </draw:text-box>
-    </draw:frame>Assumes: <text:span text:style-name="T2">emacs24 + ergoemacs + clojure-mode + cider + paredit + projectile<text:line-break/></text:span></text:p>
+    </draw:frame>Assumes: <text:span text:style-name="T2">emacs2</text:span><text:span text:style-name="T3">5</text:span><text:span text:style-name="T2"> + ergoemacs + clojure-mode + cider + paredit + projectile<text:line-break/></text:span></text:p>
    <text:p text:style-name="P1"/>
-   <text:p text:style-name="P1"><draw:frame text:anchor-type="paragraph" draw:z-index="1" draw:name="Shape1" draw:style-name="gr2" draw:text-style-name="P15" svg:width="64.44mm" svg:height="49.57mm" svg:x="216.15mm" svg:y="113.22mm">
-     <draw:text-box draw:corner-radius="1.99mm">
-      <text:p text:style-name="P13"><text:span text:style-name="T3">Projectile:</text:span></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T4">C-c p</text:span></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T4">s s</text:span><text:span text:style-name="T4"><text:tab/></text:span><text:span text:style-name="T4">Search via ag*</text:span></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T4">p</text:span><text:span text:style-name="T4"><text:tab/></text:span><text:span text:style-name="T4">Change project</text:span></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T4">f</text:span><text:span text:style-name="T4"><text:tab/></text:span><text:span text:style-name="T4">Find file</text:span></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T4">t</text:span><text:span text:style-name="T4"><text:tab/></text:span><text:span text:style-name="T4">Impl/Test same</text:span></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T4">4 t</text:span><text:span text:style-name="T4"><text:tab/></text:span><text:span text:style-name="T4">Impl/Test other</text:span></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T4">4 f</text:span><text:span text:style-name="T4"><text:tab/></text:span><text:span text:style-name="T4">Files w/same name </text:span><text:span text:style-name="T4"><text:tab/></text:span><text:span text:style-name="T4">but other suffix</text:span></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T4">i</text:span><text:span text:style-name="T4"><text:tab/></text:span><text:span text:style-name="T4">Clear cache</text:span></text:p>
+   <text:p text:style-name="P1"><draw:frame text:anchor-type="paragraph" draw:z-index="1" draw:name="Shape1" draw:style-name="gr2" draw:text-style-name="P15" svg:width="2.537in" svg:height="1.9776in" svg:x="8.5098in" svg:y="4.4575in">
+     <draw:text-box draw:corner-radius="0.0783in">
+      <text:p text:style-name="P13"><text:span text:style-name="T4">Projectile:</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T5">C-c p</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T5">s s</text:span><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5">Search via ag*</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T5">p</text:span><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5">Change project</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T5">f</text:span><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5">Find file</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T5">t</text:span><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5">Impl/Test same</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T5">4 t</text:span><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5">Impl/Test other</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T5">4 f</text:span><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5">Files w/same name </text:span><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5">but other suffix</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T5">i</text:span><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5">Clear cache</text:span></text:p>
      </draw:text-box>
-    </draw:frame><draw:frame text:anchor-type="paragraph" draw:z-index="2" draw:name="Shape1" draw:style-name="gr3" draw:text-style-name="P15" svg:width="66.05mm" svg:height="115.97mm" svg:x="75.76mm" svg:y="24.01mm">
-     <draw:text-box draw:corner-radius="1.99mm">
-      <text:p text:style-name="P13"><text:span text:style-name="T3">Cider:</text:span></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T4">C-c</text:span></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T4">M-j</text:span><text:span text:style-name="T4"><text:tab/></text:span><text:span text:style-name="T4">cider-jack-in</text:span></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T4">C-c</text:span><text:span text:style-name="T4"><text:tab/></text:span><text:span text:style-name="T4"><text:tab/></text:span><text:span text:style-name="T4">Eval fn at point</text:span></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T4"><text:tab/></text:span><text:span text:style-name="T4">(also CM-x)</text:span></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T4">M-n</text:span><text:span text:style-name="T4"><text:tab/></text:span><text:span text:style-name="T4">Change nRepl ns</text:span></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T4">C-k</text:span><text:span text:style-name="T4"><text:tab/></text:span><text:span text:style-name="T4">Eval buffer</text:span></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T4">C-z</text:span><text:span text:style-name="T4"><text:tab/></text:span><text:span text:style-name="T4">nRepl &lt;&gt; ns buffer</text:span></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T4">C-b</text:span><text:span text:style-name="T4"><text:tab/></text:span><text:span text:style-name="T4">Interrupt</text:span></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T4">C-x</text:span><text:span text:style-name="T4"><text:tab/></text:span><text:span text:style-name="T4">Reload modif. ns’es</text:span></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T4">C-q</text:span><text:span text:style-name="T4"><text:tab/></text:span><text:span text:style-name="T4">Exit</text:span></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T4"/></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T4">C-d d</text:span><text:span text:style-name="T4"><text:tab/></text:span><text:span text:style-name="T4">Documentation</text:span></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T4">C-d r</text:span><text:span text:style-name="T4"><text:tab/></text:span><text:span text:style-name="T4">Grimoire</text:span></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T4"/></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T4">M-.</text:span><text:span text:style-name="T4"><text:tab/></text:span><text:span text:style-name="T4">Find var</text:span></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T4">M-,</text:span><text:span text:style-name="T4"><text:tab/></text:span><text:span text:style-name="T4">Pop back</text:span></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T4">C-up</text:span><text:span text:style-name="T4"><text:tab/></text:span><text:span text:style-name="T4">nRepl last cmd</text:span></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T4"/></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T4">Test: C-c C-t</text:span></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T4">n</text:span><text:span text:style-name="T4"><text:tab/></text:span><text:span text:style-name="T4">Namespace</text:span></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T4">C-t</text:span><text:span text:style-name="T4"><text:tab/></text:span><text:span text:style-name="T4">Test at point (g)</text:span></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T4"/></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T4"/></text:p>
+    </draw:frame><draw:frame text:anchor-type="paragraph" draw:z-index="2" draw:name="Shape1" draw:style-name="gr3" draw:text-style-name="P15" svg:width="2.6004in" svg:height="4.6996in" svg:x="2.9827in" svg:y="0.9453in">
+     <draw:text-box draw:corner-radius="0.0783in">
+      <text:p text:style-name="P13"><text:span text:style-name="T4">Cider:</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T5">C-c</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T5">M-j</text:span><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5">cider-jack-in</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T5">C-c</text:span><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5">Eval fn at point</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5">(also CM-x)</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T5">M-n</text:span><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5">Change nRepl ns</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T5">C-k</text:span><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5">Eval buffer</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T5">C-z</text:span><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5">nRepl &lt;&gt; ns buffer</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T5">C-b</text:span><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5">Interrupt</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T5">C-x</text:span><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5">Reload modif. ns’es</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T5">C-q</text:span><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5">Exit</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T5"/></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T5">C-d d</text:span><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5">Documentation</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T5">C-d r</text:span><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5">Grimoire</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T5"/></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T5">M-.</text:span><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5">Find var</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T5">M-,</text:span><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5">Pop back</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T5">C-up</text:span><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5">nRepl last cmd</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T5"/></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T5">Test: C-c C-t</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T5">n</text:span><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5">Namespace</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T5">C-t</text:span><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5">Test at point (g)</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T5"/></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T5"/></text:p>
      </draw:text-box>
-    </draw:frame><draw:frame text:anchor-type="paragraph" draw:z-index="8" draw:name="Shape2" draw:style-name="gr7" draw:text-style-name="P16" svg:width="133.83mm" svg:height="4.96mm" svg:x="3.77mm" svg:y="167.75mm">
+    </draw:frame><draw:frame text:anchor-type="paragraph" draw:z-index="8" draw:name="Shape2" draw:style-name="gr7" draw:text-style-name="P16" svg:width="5.2689in" svg:height="0.1953in" svg:x="0.1484in" svg:y="6.6043in">
      <draw:text-box>
       <text:p><text:span text:style-name="T2">* ag installed via ‘sudo apt install silversearcher-ag’</text:span></text:p>
      </draw:text-box>
-    </draw:frame><draw:frame text:anchor-type="paragraph" draw:z-index="3" draw:name="Shape1" draw:style-name="gr4" draw:text-style-name="P14" svg:width="66.03mm" svg:height="77.58mm" svg:x="1.43mm" svg:y="53.75mm">
-     <draw:text-box draw:corner-radius="1.99mm">
-      <text:p text:style-name="P13"><text:span text:style-name="T3">ParEdit:</text:span></text:p>
+    </draw:frame><draw:frame text:anchor-type="paragraph" draw:z-index="3" draw:name="Shape1" draw:style-name="gr4" draw:text-style-name="P14" svg:width="2.5996in" svg:height="3.1441in" svg:x="0.0563in" svg:y="2.1161in">
+     <draw:text-box draw:corner-radius="0.0783in">
+      <text:p text:style-name="P13"><text:span text:style-name="T4">ParEdit:</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1">M-(</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">Wrap round (etc.)</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1">M-g</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">Kill sexp</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1"/></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1">CS</text:span></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T1">)</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">Slurp forward</text:span></text:p>
-      <text:p text:style-name="P13"><text:span text:style-name="T1">(</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">Slurp backward</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1">}</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">Barf forward</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1">{</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">Barf backward</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1"/></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1">CM</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T1">l</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">Slurp forward</text:span></text:p>
+      <text:p text:style-name="P13"><text:span text:style-name="T1">J</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">Slurp backward</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1">f</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">Paren forward</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1">b</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">Paren backward</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1">d</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">Down List (in)</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1">u</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">Up list (out)</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1"/></text:p>
      </draw:text-box>
-    </draw:frame><draw:frame text:anchor-type="paragraph" draw:z-index="9" draw:name="Shape1" draw:style-name="gr8" draw:text-style-name="P14" svg:width="66.03mm" svg:height="20.01mm" svg:x="1.82mm" svg:y="138.01mm">
-     <draw:text-box draw:corner-radius="1.99mm">
-      <text:p text:style-name="P13"><text:span text:style-name="T3">Markdown:</text:span></text:p>
+    </draw:frame><draw:frame text:anchor-type="paragraph" draw:z-index="9" draw:name="Shape1" draw:style-name="gr8" draw:text-style-name="P14" svg:width="2.5996in" svg:height="0.8106in" svg:x="0.0717in" svg:y="5.4335in">
+     <draw:text-box draw:corner-radius="0.0783in">
+      <text:p text:style-name="P13"><text:span text:style-name="T4">Markdown:</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1"/></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1">C-c C-c p</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">Preview</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1"/></text:p>
      </draw:text-box>
-    </draw:frame><draw:frame text:anchor-type="paragraph" draw:z-index="10" draw:name="Shape2" draw:style-name="gr7" draw:text-style-name="P18" svg:width="133.83mm" svg:height="4.96mm" svg:x="152.47mm" svg:y="167.75mm">
+    </draw:frame><draw:frame text:anchor-type="paragraph" draw:z-index="10" draw:name="Shape2" draw:style-name="gr7" draw:text-style-name="P18" svg:width="5.2689in" svg:height="0.1953in" svg:x="6.0028in" svg:y="6.6043in">
      <draw:text-box>
       <text:p text:style-name="P17"><text:span text:style-name="T2">https://github.com/luposlip/emacs-cheatsheet</text:span></text:p>
      </draw:text-box>
-    </draw:frame><draw:frame text:anchor-type="paragraph" draw:z-index="5" draw:name="Shape1" draw:style-name="gr6" draw:text-style-name="P14" svg:width="64.44mm" svg:height="63.19mm" svg:x="146.76mm" svg:y="64.91mm">
-     <draw:text-box draw:corner-radius="1.99mm">
-      <text:p text:style-name="P13"><text:span text:style-name="T3">Buffers:</text:span></text:p>
+    </draw:frame><draw:frame text:anchor-type="paragraph" draw:z-index="5" draw:name="Shape1" draw:style-name="gr6" draw:text-style-name="P14" svg:width="2.537in" svg:height="2.5606in" svg:x="5.778in" svg:y="2.5555in">
+     <draw:text-box draw:corner-radius="0.0783in">
+      <text:p text:style-name="P13"><text:span text:style-name="T4">Buffers:</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1">Menu-s</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">Save buffer</text:span></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1"/></text:p>
       <text:p text:style-name="P13"><text:span text:style-name="T1">C-n</text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">New buffer</text:span></text:p>
