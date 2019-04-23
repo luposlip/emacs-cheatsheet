@@ -4,28 +4,31 @@ Since I couldn't find any cheatsheets out there for Emacs with ErgoEmacs for Clo
 
 So, this is it.
 
-I use Emacs 25.2.2 (for the moment).
+I use Emacs 26.1 (for the moment).
 
 This is my list of Emacs packages:
 
+    ag
+    aggressive-indent
+    avy
+    better-defaults
+    cider
+    clj-refactor
     clojure-mode
     clojure-mode-extra-font-locking
-    clj-refactor
-    aggressive-indent
+    company
+    dash
+    ergoemacs-mode
+    flx-ido
+    ido-completing-read+
+    magit
+    monokai-theme
+    org
     paredit
     paredit-menu
-    company
-    ido-ubiquitous
-    flx-ido
-    rainbow-delimiters
-    monokai-theme
-    smex
-    cider
     projectile
-    better-defaults
-    magit
-    ergoemacs-mode
-    ag
+    rainbow-delimiters
+    smex
 
 You can see my full Emacs `init.el` here:
 [https://gist.github.com/luposlip/b2527a99fd175b53aadfecc07a06c16e](https://gist.github.com/luposlip/b2527a99fd175b53aadfecc07a06c16e)
@@ -51,6 +54,6 @@ If your nRepl won't start because of some not found wrap-refactor, it's probably
 
 ## Licence
 
-Copyright © luposlip 2016-2017
+Copyright © Henrik Mohr 2019
 
 Distributed under [Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) CC Licence
