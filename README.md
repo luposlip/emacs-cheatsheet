@@ -25,7 +25,6 @@ This is my list of Emacs packages:
     monokai-theme
     org
     paredit
-    paredit-menu
     projectile
     rainbow-delimiters
     smex
