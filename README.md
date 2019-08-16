@@ -11,6 +11,7 @@ This is my list of Emacs packages:
     ag
     aggressive-indent
     avy
+    beacon
     better-defaults
     cider
     clj-refactor
@@ -28,7 +29,7 @@ This is my list of Emacs packages:
     projectile
     rainbow-delimiters
     smex
-
+    
 You can see my full Emacs `init.el` here:
 [https://gist.github.com/luposlip/b2527a99fd175b53aadfecc07a06c16e](https://gist.github.com/luposlip/b2527a99fd175b53aadfecc07a06c16e)
 
