@@ -4,10 +4,11 @@ Since I couldn't find any cheatsheets out there for Emacs with ErgoEmacs for Clo
 
 So, this is it.
 
-I use Emacs 26.1 (for the moment).
+I use Emacs 27.1 (for the moment).
 
 This is my list of Emacs packages:
 
+    adoc-mode
     ag
     aggressive-indent
     avy
@@ -20,6 +21,7 @@ This is my list of Emacs packages:
     company
     dash
     ergoemacs-mode
+    flycheck-clj-kondo
     flx-ido
     ido-completing-read+
     magit
@@ -30,7 +32,7 @@ This is my list of Emacs packages:
     rainbow-delimiters
     smex
     
-You can see my full Emacs `init.el` here:
+You can see my full Emacs `.emacs` here:
 [https://gist.github.com/luposlip/b2527a99fd175b53aadfecc07a06c16e](https://gist.github.com/luposlip/b2527a99fd175b53aadfecc07a06c16e)
 
 You're most welcome to use and adapt it for your own personal preferences, as long as you share your adaptation with the rest of us (by forking this repo).
@@ -54,6 +56,6 @@ If your nRepl won't start because of some not found wrap-refactor, it's probably
 
 ## Licence
 
-Copyright © Henrik Mohr 2019
+Copyright © Henrik Mohr 2019-2021
 
 Distributed under [Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) CC Licence
