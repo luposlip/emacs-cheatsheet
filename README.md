@@ -1,58 +1,23 @@
 # Luposlip's Emacs/Clojure Cheatsheet
 
-Since I couldn't find any cheatsheets out there for Emacs with ErgoEmacs for Clojure development, I decided to create my own.
+If you're interested in my [old setup using plain emacs, see here](old-setup-plain-emacs.md).
 
-So, this is it.
+I've recently (October 2021) started using @bbatsov's [Prelude](https://github.com/bbatsov/prelude).
 
-I use Emacs 27.1 (for the moment).
+So my setup is much simpler now. I just add my [luposlip.el](luposlip.el) to my
+`~/.emacs.d/personal` folder, and that's it.
 
-This is my list of Emacs packages:
+I'm still using a subset of [ergoemacs](https://ergoemacs.github.io), but
+instead of the full blown ergoemacs-mode, I use the limited [`lvl2`](https://ergoemacs.github.io/gradual-adoption.html)
+theme to preserve as many as the great Prelude defaults as possible, and still
+keeping my sanity with `C-c` (copy), `C-v` (paste), `C-z` (undo), `M-s` (switch buffer)
+and navigation with `M-i` (line up), `M-k` (line down), `M-j` (char left) and
+M-l (char right) plus a few others defaults:
+[ergoemacs standard shortcuts](https://ergoemacs.github.io/standard-shortcuts.html).
 
-    adoc-mode
-    ag
-    aggressive-indent
-    avy
-    beacon
-    better-defaults
-    cider
-    clj-refactor
-    clojure-mode
-    clojure-mode-extra-font-locking
-    company
-    dash
-    ergoemacs-mode
-    flycheck-clj-kondo
-    flx-ido
-    ido-completing-read+
-    magit
-    monokai-theme
-    org
-    paredit
-    projectile
-    rainbow-delimiters
-    smex
-    
-You can see my full Emacs `.emacs` here:
-[https://gist.github.com/luposlip/b2527a99fd175b53aadfecc07a06c16e](https://gist.github.com/luposlip/b2527a99fd175b53aadfecc07a06c16e)
+## Thanks to
 
-You're most welcome to use and adapt it for your own personal preferences, as long as you share your adaptation with the rest of us (by forking this repo).
-
-## Projectile issues
-
-If you're getting an error from Projectile containing the message `Setting Current Directory`, and the rest of the message contains a path with double slashes, you should probably change the paths in your project root `.projectile` file.
-
-One of my `.projectile` files looks like this:
-
-    +src/clj
-    +test
-
-## nREPL issues
-
-If your nRepl won't start because of some not found wrap-refactor, it's probably because of a wrong installed version of clj-refactor. Uninstall that via `package-list-packages` (search for it via `C-f`, then mark it for deletion via a press on `d`, then execute the deletion via a press on `x`. Then install newest "date-versioned" incarnation of `clj-refactor` instead.
-
-## Thanks to 
-
-@korny for inspiration from his "Korny's Emacs/clojure cheatsheet"
+@bbatsov for all his great work for the Clojure community!
 
 ## Licence
 
