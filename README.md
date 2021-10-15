@@ -15,6 +15,9 @@ and navigation with `M-i` (line up), `M-k` (line down), `M-j` (char left) and
 M-l (char right) plus a few others defaults:
 [ergoemacs standard shortcuts](https://ergoemacs.github.io/standard-shortcuts.html).
 
+Remember to enable the Prelude module for `clojure` development under:
+`.emacs.d/personal/prelude-modules.el`!
+
 ## Thanks to
 
 @bbatsov for all his great work for the Clojure community!
