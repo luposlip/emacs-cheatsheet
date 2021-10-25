@@ -31,6 +31,8 @@
 (global-set-key (kbd "M-]") 'switch-to-next-buffer)
 (global-set-key (kbd "<prior>") 'scroll-down)
 (global-set-key (kbd "<next>") 'scroll-up)
+(global-set-key (kbd "C-M-l") 'sp-forward-slurp-sexp)
+(global-set-key (kbd "C-M-j") 'sp-backward-slurp-sexp)
 
 ;; start ergoemacs
 (ergoemacs-mode 1)
@@ -49,4 +51,4 @@
 (add-hook 'cider-repl-mode-hook 'rainbow-delimiters-mode)
 (add-hook 'cider-repl-mode-hook 'smartparens-mode)
 
-(setq default-directory "~/skm/data-flix/tidlig-udsendelse")
+(setq default-directory "~/my/fav/prj")
