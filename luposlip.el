@@ -1,14 +1,15 @@
 (prelude-require-packages
  '(monokai-theme
    ergoemacs-mode
+   paredit
    rainbow-delimiters
    cider-eval-sexp-fu
    flycheck-clj-kondo))
 
 ;; zenburn -> monokai
 (disable-theme 'zenburn)
-(setq prelude-theme 'monokai)
 (load-theme 'monokai t)
+(setq prelude-theme 'monokai)
 
 ;; always reload changed files
 (global-auto-revert-mode t)
@@ -21,7 +22,7 @@
 
 ;; ergoemacs - config
 (setq ergoemacs-theme "lvl2")
-(setq ergoemacs-ignore-prev-global nil)
+;;(setq ergoemacs-ignore-prev-global nil)
 (require 'ergoemacs-mode)
 
 ;; custom shortcuts
@@ -39,16 +40,19 @@
 
 ;; clojure mode hooks
 (add-hook 'clojure-mode-hook 'rainbow-delimiters-mode)
+(add-hook 'clojure-mode-hook 'paredit-mode)
 (add-hook 'clojure-mode-hook 'smartparens-mode)
 (add-hook 'clojure-mode-hook 'cider-mode)
 (add-hook 'clojure-mode-hook 'flycheck-mode)
 
 ;; cider-mode hooks
 (add-hook 'cider-mode-hook 'rainbow-delimiters-mode)
+(add-hook 'clojure-mode-hook 'paredit-mode)
 (add-hook 'cider-mode-hook 'smartparens-mode)
 
 ;; cider-repl-mode
 (add-hook 'cider-repl-mode-hook 'rainbow-delimiters-mode)
+(add-hook 'clojure-mode-hook 'paredit-mode)
 (add-hook 'cider-repl-mode-hook 'smartparens-mode)
 
-(setq default-directory "~/my/fav/prj")
+(setq default-directory "~/path/to/project")
