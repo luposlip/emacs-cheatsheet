@@ -34,6 +34,7 @@
 (global-set-key (kbd "<next>") 'scroll-up)
 (global-set-key (kbd "C-M-l") 'sp-forward-slurp-sexp)
 (global-set-key (kbd "C-M-j") 'sp-backward-slurp-sexp)
+(global-set-key (kbd "C-c p s f") 'ag-files)
 
 ;; start ergoemacs
 (ergoemacs-mode 1)
