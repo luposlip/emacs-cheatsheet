@@ -25,6 +25,9 @@
 ;;(setq ergoemacs-ignore-prev-global nil)
 (require 'ergoemacs-mode)
 
+;; JVM options!
+(setq cider-clojure-cli-global-options "-J-XX:-OmitStackTraceInFastThrow")
+
 ;; custom shortcuts
 (global-set-key (kbd "<menu>") 'smex)
 (global-set-key (kbd "C-k") 'paredit-kill)
