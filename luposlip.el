@@ -1,15 +1,36 @@
 (prelude-require-packages
- '(monokai-theme
+ '(doom-themes
    ergoemacs-mode
+   company
    paredit
+   smex
    rainbow-delimiters
    cider-eval-sexp-fu
-   flycheck-clj-kondo))
+   flycheck-clj-kondo
+   plantuml-mode))
 
-;; zenburn -> monokai
+;; plantuml-mode
+(setq org-plantuml-jar-path (expand-file-name "/home/luposlip/Downloads/plantuml.jar"))
+(add-to-list 'org-src-lang-modes '("plantuml" . plantuml))
+(org-babel-do-load-languages 'org-babel-load-languages '((plantuml . t)))
+
+;; Themes below
+
+;; zenburn -> darkburn
+;;(setq zenburn-override-colors-alist
+;;      '(("zenburn-bg"  . "#111111")))
+;;(load-theme 'zenburn t)
+
+;; zenburn -> doom
+;; https://github.com/doomemacs/themes#manually
 (disable-theme 'zenburn)
-(load-theme 'monokai t)
-(setq prelude-theme 'monokai)
+(setq doom-themes-enable-bold t    ; if nil, bold is universally disabled
+      doom-themes-enable-italic t) ; if nil, italics is universally disabled
+(setq prelude-theme 'doom-monokai-spectrum) ;; or doom-molokai
+(load-theme 'doom-monokai-spectrum) ;; or doom-molokai
+(doom-themes-visual-bell-config) ;; Enable flashing mode-line on errors
+(doom-themes-neotree-config) ;; Enable custom neotree theme (all-the-icons must be installed!)
+(doom-themes-org-config) ;; Corrects (and improves) org-mode's native fontification.
 
 ;; always reload changed files
 (global-auto-revert-mode t)
@@ -21,12 +42,15 @@
 (require 'cider-eval-sexp-fu)
 
 ;; ergoemacs - config
-(setq ergoemacs-theme "lvl2")
+(setq ergoemacs-theme "lvl3")
 ;;(setq ergoemacs-ignore-prev-global nil)
 (require 'ergoemacs-mode)
 
 ;; JVM options!
 (setq cider-clojure-cli-global-options "-J-XX:-OmitStackTraceInFastThrow")
+
+;; Nice!
+(pixel-scroll-precision-mode)
 
 ;; custom shortcuts
 (global-set-key (kbd "<menu>") 'smex)
@@ -58,5 +82,6 @@
 (add-hook 'cider-repl-mode-hook 'rainbow-delimiters-mode)
 (add-hook 'clojure-mode-hook 'paredit-mode)
 (add-hook 'cider-repl-mode-hook 'smartparens-mode)
+(add-hook 'cider-repl-mode-hook 'paredit-mode)
 
 (setq default-directory "~/path/to/project")
