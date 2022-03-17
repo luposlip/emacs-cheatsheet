@@ -10,26 +10,29 @@
    plantuml-mode))
 
 ;; plantuml-mode
-(setq org-plantuml-jar-path (expand-file-name "/home/luposlip/Downloads/plantuml.jar"))
+(setq org-plantuml-jar-path
+      (expand-file-name "/home/luposlip/Downloads/plantuml.jar"))
 (add-to-list 'org-src-lang-modes '("plantuml" . plantuml))
 (org-babel-do-load-languages 'org-babel-load-languages '((plantuml . t)))
 
-;; Themes below
+;; Theme!
 
 ;; zenburn -> darkburn
 ;;(setq zenburn-override-colors-alist
 ;;      '(("zenburn-bg"  . "#111111")))
 ;;(load-theme 'zenburn t)
 
-;; zenburn -> doom
+;; zenburn -> doom-one
 ;; https://github.com/doomemacs/themes#manually
 (disable-theme 'zenburn)
 (setq doom-themes-enable-bold t    ; if nil, bold is universally disabled
       doom-themes-enable-italic t) ; if nil, italics is universally disabled
-(setq prelude-theme 'doom-monokai-spectrum) ;; or doom-molokai
-(load-theme 'doom-monokai-spectrum) ;; or doom-molokai
+(setq prelude-theme 'doom-monokai-spectrum)
+(load-theme 'doom-monokai-spectrum)
 (doom-themes-visual-bell-config) ;; Enable flashing mode-line on errors
-(doom-themes-org-config) ;; Corrects (and improves) org-mode's native fontification.
+(doom-themes-org-config) ;; Corrects (and improves) org-mode's native fontific.
+(custom-set-faces
+ '(region ((t (:background "#55504b" )))))
 
 ;; always reload changed files
 (global-auto-revert-mode t)
