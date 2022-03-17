@@ -29,7 +29,6 @@
 (setq prelude-theme 'doom-monokai-spectrum) ;; or doom-molokai
 (load-theme 'doom-monokai-spectrum) ;; or doom-molokai
 (doom-themes-visual-bell-config) ;; Enable flashing mode-line on errors
-(doom-themes-neotree-config) ;; Enable custom neotree theme (all-the-icons must be installed!)
 (doom-themes-org-config) ;; Corrects (and improves) org-mode's native fontification.
 
 ;; always reload changed files
