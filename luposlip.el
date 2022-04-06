@@ -7,22 +7,16 @@
    rainbow-delimiters
    cider-eval-sexp-fu
    flycheck-clj-kondo
-   plantuml-mode))
+   plantuml-mode
+   adoc-mode))
 
 ;; plantuml-mode
 (setq org-plantuml-jar-path
-      (expand-file-name "/home/luposlip/Downloads/plantuml.jar"))
+      (expand-file-name "/Users/luposlip/Downloads/plantuml.jar"))
 (add-to-list 'org-src-lang-modes '("plantuml" . plantuml))
 (org-babel-do-load-languages 'org-babel-load-languages '((plantuml . t)))
 
-;; Theme!
-
-;; zenburn -> darkburn
-;;(setq zenburn-override-colors-alist
-;;      '(("zenburn-bg"  . "#111111")))
-;;(load-theme 'zenburn t)
-
-;; zenburn -> doom-one
+;; zenburn theme -> doom-monokai
 ;; https://github.com/doomemacs/themes#manually
 (disable-theme 'zenburn)
 (setq doom-themes-enable-bold t    ; if nil, bold is universally disabled
@@ -31,8 +25,10 @@
 (load-theme 'doom-monokai-spectrum)
 (doom-themes-visual-bell-config) ;; Enable flashing mode-line on errors
 (doom-themes-org-config) ;; Corrects (and improves) org-mode's native fontific.
+
+;; better highlights of selected region
 (custom-set-faces
- '(region ((t (:background "#55504b" )))))
+ '(region ((t (:background "#555042" )))))
 
 ;; always reload changed files
 (global-auto-revert-mode t)
@@ -51,8 +47,41 @@
 ;; JVM options!
 (setq cider-clojure-cli-global-options "-J-XX:-OmitStackTraceInFastThrow")
 
-;; Nice!
-(pixel-scroll-precision-mode)
+;; Nice! - enable when available (in Emacs 29.1?)
+;;(pixel-scroll-precision-mode)
+
+;; if on a MBP, remap the keys to match that of Linux/Windoze
+;; See: https://emacsformacosx.com/tips
+;; and: https://www.jetbrains.com/lp/mono/
+;; or:  https://github.com/tonsky/FiraCode/wiki/Emacs-instructions
+(when (equal system-type 'darwin)
+  (setq mac-command-modifier 'meta)
+  (setq mac-option-modifier 'super)
+  (setq ns-function-modifier 'control)
+  (add-to-list 'default-frame-alist '(ns-transparent-titlebar . t))
+  (when (member "JetBrains Mono" (font-family-list)) ;; Or "Fira Code"
+    (add-to-list 'initial-frame-alist '(font . "JetBrains Mono-13")) ;; or "Fira Code-14"
+    (add-to-list 'default-frame-alist '(font . "JetBrains Mono-13")))
+  ;;(mac-auto-operator-composition-mode)
+  (set-fontset-font t 'symbol (font-spec :family "Apple Symbols") nil 'prepend)
+  (set-fontset-font t 'symbol (font-spec :family "Apple Color Emoji") nil 'prepend))
+
+;; Enable the www ligature in every possible major mode
+(ligature-set-ligatures 't '("www"))
+
+;; Enable ligatures in programming modes
+(ligature-set-ligatures 'prog-mode '("www" "**" "***" "**/" "*>" "*/" "\\\\" "\\\\\\" "{-" "::"
+                                     ":::" ":=" "!!" "!=" "!==" "-}" "----" "-->" "->" "->>"
+                                     "-<" "-<<" "-~" "#{" "#[" "##" "###" "####" "#(" "#?" "#_"
+                                     "#_(" ".-" ".=" ".." "..<" "..." "?=" "??" ";;" "/*" "/**"
+                                     "/=" "/==" "/>" "//" "///" "&&" "||" "||=" "|=" "|>" "^=" "$>"
+                                     "++" "+++" "+>" "=:=" "==" "===" "==>" "=>" "=>>" "<="
+                                     "=<<" "=/=" ">-" ">=" ">=>" ">>" ">>-" ">>=" ">>>" "<*"
+                                     "<*>" "<|" "<|>" "<$" "<$>" "<!--" "<-" "<--" "<->" "<+"
+                                     "<+>" "<=" "<==" "<=>" "<=<" "<>" "<<" "<<-" "<<=" "<<<"
+                                     "<~" "<~~" "</" "</>" "~@" "~-" "~>" "~~" "~~>" "%%"))
+
+(global-ligature-mode 't)
 
 ;; custom shortcuts
 (global-set-key (kbd "<menu>") 'smex)
