@@ -1,18 +1,14 @@
 (prelude-require-packages
  '(doom-themes
    ergoemacs-mode
-   company
    paredit
-   smex
-   rainbow-delimiters
-   cider-eval-sexp-fu
    flycheck-clj-kondo
    plantuml-mode
    adoc-mode))
 
 ;; plantuml-mode
 (setq org-plantuml-jar-path
-      (expand-file-name "/Users/luposlip/Downloads/plantuml.jar"))
+      (expand-file-name "/path/to/plantuml.jar"))
 (add-to-list 'org-src-lang-modes '("plantuml" . plantuml))
 (org-babel-do-load-languages 'org-babel-load-languages '((plantuml . t)))
 
@@ -97,22 +93,9 @@
 ;; start ergoemacs
 (ergoemacs-mode 1)
 
-;; clojure mode hooks
-(add-hook 'clojure-mode-hook 'rainbow-delimiters-mode)
+;; hooks
 (add-hook 'clojure-mode-hook 'paredit-mode)
-(add-hook 'clojure-mode-hook 'smartparens-mode)
-(add-hook 'clojure-mode-hook 'cider-mode)
 (add-hook 'clojure-mode-hook 'flycheck-mode)
-
-;; cider-mode hooks
-(add-hook 'cider-mode-hook 'rainbow-delimiters-mode)
-(add-hook 'clojure-mode-hook 'paredit-mode)
-(add-hook 'cider-mode-hook 'smartparens-mode)
-
-;; cider-repl-mode
-(add-hook 'cider-repl-mode-hook 'rainbow-delimiters-mode)
-(add-hook 'clojure-mode-hook 'paredit-mode)
-(add-hook 'cider-repl-mode-hook 'smartparens-mode)
 (add-hook 'cider-repl-mode-hook 'paredit-mode)
 
 (setq default-directory "~/path/to/project")
