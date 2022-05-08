@@ -4,9 +4,11 @@
    paredit
    flycheck-clj-kondo
    plantuml-mode
-   adoc-mode))
+   adoc-mode
+   smex
+   cider-eval-sexp-fu))
 
-;; plantuml-mode
+;;; plantuml-mode
 (setq org-plantuml-jar-path
       (expand-file-name "/path/to/plantuml.jar"))
 (add-to-list 'org-src-lang-modes '("plantuml" . plantuml))
@@ -92,6 +94,9 @@
 
 ;; start ergoemacs
 (ergoemacs-mode 1)
+
+;; hooks
+(add-hook 'clojure-mode-hook 'paredit-mode)
 
 ;; hooks
 (add-hook 'clojure-mode-hook 'paredit-mode)
