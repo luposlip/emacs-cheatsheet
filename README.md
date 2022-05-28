@@ -34,6 +34,6 @@ Remember to enable the Prelude module for `clojure` development under:
 
 ## Licence
 
-Copyright © Henrik Mohr 2019-2021
+Copyright © Henrik Mohr 2019-2022
 
 Distributed under [Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) CC Licence
