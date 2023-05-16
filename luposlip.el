@@ -1,12 +1,13 @@
 (prelude-require-packages
- '(doom-themes
-   ergoemacs-mode
+ '(kaolin-themes
    paredit
    flycheck-clj-kondo
    plantuml-mode
    adoc-mode
    smex
-   cider-eval-sexp-fu))
+   clj-refactor
+   cider-eval-sexp-fu
+   clj-deps-new))
 
 ;;; plantuml-mode
 (setq org-plantuml-jar-path
@@ -14,19 +15,18 @@
 (add-to-list 'org-src-lang-modes '("plantuml" . plantuml))
 (org-babel-do-load-languages 'org-babel-load-languages '((plantuml . t)))
 
-;; zenburn theme -> doom-monokai
+;; zenburn theme -> my fav theme
+;; considered: doom-gruvbox, doom-ir-black,
+;;             doom-monokai-pro, doom-monokai-spectrum,
+;;             doom-monokai-machine, doom-old-hope,
+;;             kaolin-bubblebum, kaolin-galaxy,
+;;             kaolin-ocean,kaolin-valley-dark
 ;; https://github.com/doomemacs/themes#manually
-(disable-theme 'zenburn)
-(setq doom-themes-enable-bold t    ; if nil, bold is universally disabled
-      doom-themes-enable-italic t) ; if nil, italics is universally disabled
-(setq prelude-theme 'doom-monokai-spectrum)
-(load-theme 'doom-monokai-spectrum)
-(doom-themes-visual-bell-config) ;; Enable flashing mode-line on errors
-(doom-themes-org-config) ;; Corrects (and improves) org-mode's native fontific.
 
-;; better highlights of selected region
-(custom-set-faces
- '(region ((t (:background "#555042" )))))
+(disable-theme 'zenburn)
+
+(setq prelude-theme 'kaolin-bubblegum)
+(load-theme 'kaolin-bubblegum)
 
 ;; always reload changed files
 (global-auto-revert-mode t)
@@ -39,7 +39,7 @@
 
 ;; ergoemacs - config
 (setq ergoemacs-theme "lvl3")
-;;(setq ergoemacs-ignore-prev-global nil)
+(setq ergoemacs-ignore-prev-global nil)
 (require 'ergoemacs-mode)
 
 ;; JVM options!
@@ -58,8 +58,8 @@
   (setq ns-function-modifier 'control)
   (add-to-list 'default-frame-alist '(ns-transparent-titlebar . t))
   (when (member "JetBrains Mono" (font-family-list)) ;; Or "Fira Code"
-    (add-to-list 'initial-frame-alist '(font . "JetBrains Mono-13")) ;; or "Fira Code-14"
-    (add-to-list 'default-frame-alist '(font . "JetBrains Mono-13")))
+    (add-to-list 'initial-frame-alist '(font . "JetBrains Mono-14")) ;; "Fira Code-14" | "JetBrains Mono-13"
+    (add-to-list 'default-frame-alist '(font . "JetBrains Mono-14")))
   ;;(mac-auto-operator-composition-mode)
   (set-fontset-font t 'symbol (font-spec :family "Apple Symbols") nil 'prepend)
   (set-fontset-font t 'symbol (font-spec :family "Apple Color Emoji") nil 'prepend))
@@ -82,7 +82,7 @@
 (global-ligature-mode 't)
 
 ;; custom shortcuts
-(global-set-key (kbd "<menu>") 'smex)
+;;(global-set-key (kbd "<menu>") 'smex)
 (global-set-key (kbd "C-k") 'paredit-kill)
 (global-set-key (kbd "M-[") 'switch-to-prev-buffer)
 (global-set-key (kbd "M-]") 'switch-to-next-buffer)
@@ -96,11 +96,27 @@
 (ergoemacs-mode 1)
 
 ;; hooks
-(add-hook 'clojure-mode-hook 'paredit-mode)
+(defun my-clojure-mode-hook ()
+  ;;(clj-refactor-mode 1)
+  (flycheck-mode 1)
+  (paredit-mode 1)
+  ;;(yas-minor-mode 1) ; for adding require/use/import statements
+  ;; This choice of keybinding leaves cider-macroexpand-1 unbound
+  ;;(cljr-add-keybindings-with-prefix "C-c C-m")
+  )
 
 ;; hooks
-(add-hook 'clojure-mode-hook 'paredit-mode)
-(add-hook 'clojure-mode-hook 'flycheck-mode)
-(add-hook 'cider-repl-mode-hook 'paredit-mode)
+;;(add-hook 'prog-mode-hook 'copilot-mode)
 
-(setq default-directory "~/path/to/project")
+(add-hook 'clojure-mode-hook 'my-clojure-mode-hook)
+
+(add-hook 'cider-repl-mode-hook 'paredit-mode)
+;;(add-hook 'org-mode 'paredit-mode)
+
+;;(setq org-babel-clojure-backend 'cider)
+
+;; initial major-mode (for scratch)
+(setq initial-major-mode 'clojure-mode)
+(setq initial-scratch-message ";; Data all the way..!\n\n")
+
+(setq default-directory "~/path/to/project/")
