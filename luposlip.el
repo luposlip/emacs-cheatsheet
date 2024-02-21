@@ -1,21 +1,23 @@
 (prelude-require-packages
- '(kaolin-themes
+ '(;;doom-themes
+   kaolin-themes
    paredit
-   flycheck-clj-kondo
+   ;;flycheck-clj-kondo
    plantuml-mode
    adoc-mode
    smex
    clj-refactor
    cider-eval-sexp-fu
-   clj-deps-new))
+   clj-deps-new
+   ergoemacs-mode))
 
 ;;; plantuml-mode
 (setq org-plantuml-jar-path
-      (expand-file-name "/path/to/plantuml.jar"))
+      (expand-file-name "/Users/luposlip/Downloads/plantuml-1.2023.10.jar"))
 (add-to-list 'org-src-lang-modes '("plantuml" . plantuml))
 (org-babel-do-load-languages 'org-babel-load-languages '((plantuml . t)))
 
-;; zenburn theme -> my fav theme
+;; zenburn theme -> mine!
 ;; considered: doom-gruvbox, doom-ir-black,
 ;;             doom-monokai-pro, doom-monokai-spectrum,
 ;;             doom-monokai-machine, doom-old-hope,
@@ -28,11 +30,15 @@
 (setq prelude-theme 'kaolin-bubblegum)
 (load-theme 'kaolin-bubblegum)
 
+;; better highlights of selected region
+;;(custom-set-faces
+;; '(region ((t (:background "#555042" )))))
+
 ;; always reload changed files
 (global-auto-revert-mode t)
 
 ;; awesome flycheck with clj-kondo!
-(require 'flycheck-clj-kondo)
+;;(require 'flycheck-clj-kondo)
 
 ;; highlight what's just been eval'ed etc.
 (require 'cider-eval-sexp-fu)
@@ -92,18 +98,42 @@
 (global-set-key (kbd "C-M-j") 'sp-backward-slurp-sexp)
 (global-set-key (kbd "C-c p s f") 'ag-files)
 
+;; LSP
+(defvar my-keys-minor-mode-map
+  (let ((map (make-sparse-keymap)))
+    ;; Danish characters
+    ;;(global-set-key (kbd "M-a")  (lambda () (interactive) (insert "å")))
+    ;;(define-key map (kbd "M-A")  (lambda () (interactive) (insert "Å")))
+    ;;(define-key map (kbd "M-o")  (lambda () (interactive) (insert "ø")))
+    ;;(define-key map (kbd "M-O")  (lambda () (interactive) (insert "Ø")))
+    ;;(define-key map (kbd "M-'")  (lambda () (interactive) (insert "æ")))
+    ;;(define-key map (kbd "M-\"") (lambda () (interactive) (insert "Æ")))
+    ;; LSP
+    (define-key map (kbd "M-.") 'lsp-find-definition)          ; Jump straight to definition
+    (define-key map (kbd "s-.") 'lsp-ui-peek-find-references)  ; Peek definition and references
+    (define-key map (kbd "M-,") 'xref-go-back)                 ; Go back to before jump
+    (define-key map (kbd "s-,") 'xref-go-forward)              ; Go forward again ...
+    map)
+    "my-keys-minor-mode keymap.")
+
+(define-minor-mode my-keys-minor-mode
+  "A minor mode so that my key settings override annoying major modes"
+  :init-value t
+  :lighter " my-keys")
+
+(my-keys-minor-mode t)
+
 ;; start ergoemacs
 (ergoemacs-mode 1)
 
 ;; hooks
 (defun my-clojure-mode-hook ()
-  ;;(clj-refactor-mode 1)
+  (clj-refactor-mode 1)
   (flycheck-mode 1)
   (paredit-mode 1)
-  ;;(yas-minor-mode 1) ; for adding require/use/import statements
+  (yas-minor-mode 1) ; for adding require/use/import statements
   ;; This choice of keybinding leaves cider-macroexpand-1 unbound
-  ;;(cljr-add-keybindings-with-prefix "C-c C-m")
-  )
+  (cljr-add-keybindings-with-prefix "C-c C-r"))
 
 ;; hooks
 ;;(add-hook 'prog-mode-hook 'copilot-mode)
@@ -119,4 +149,29 @@
 (setq initial-major-mode 'clojure-mode)
 (setq initial-scratch-message ";; Data all the way..!\n\n")
 
-(setq default-directory "~/path/to/project/")
+(setq default-directory "~/meewee/service/")
+
+(use-package lsp-mode
+  :ensure t
+  :hook ((clojure-mode . lsp)
+         (clojurec-mode . lsp)
+         (clojurescript-mode . lsp))
+  :config
+  ;; add paths to your local installation of project mgmt tools, like lein
+  ;;(setenv "PATH" (concat
+  ;;                "/usr/local/bin" path-separator
+  ;;                (getenv "PATH")))
+  (dolist (m '(clojure-mode
+               clojurec-mode
+               clojurescript-mode
+               clojurex-mode))
+    (add-to-list 'lsp-language-id-configuration `(,m . "clojure")))
+  ;;(setq lsp-clojure-server-command '("/path/to/clojure-lsp"))
+  )
+
+  (use-package lsp-ui
+    :ensure t
+    :commands lsp-ui-mode)
+
+;;(use-package company :ensure t)
+(set-frame-parameter nil 'ns-transparent-titlebar nil)
